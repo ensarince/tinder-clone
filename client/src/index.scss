@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-style: italic;
+}
+
+.primary-button{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: linear-gradient(45deg, #fe3072, #ff5940);
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.primary-button:hover{
+    background: linear-gradient(260deg, #fe3072, #ff5940);
+}
+
+.secondary-button{
+    color: rgb(121, 119, 119);
+    text-transform: uppercase;
+    font-size: 15px;
+    background: #fff;
+    font-weight: 500px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: solid 2px rgb(121, 119, 119);
+    margin: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.primary-title{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+}
+
+.secondary-button:hover{
+    color: rgb(48, 48, 48);
+    border: solid 2px rgb(48, 48, 48);
+}
+
+
+.nav-button{
+    color: rgb(254, 48, 114);
+    background-color: #fff;
+    font-size: 20px;
+    padding: 0.3rem 0.7rem;
+    margin: 0.25rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.nav-button:disabled{
+    background-color: rgb(181, 180, 180);
+    color: rgb(254, 48, 114);
+}
